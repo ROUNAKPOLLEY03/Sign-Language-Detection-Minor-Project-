@@ -1,0 +1,5 @@
+Pip install tensorflow
+Pip install opencv-python
+Pip install mediapipe
+pip install scikit-learn
+pip install matplotlib  
