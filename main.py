@@ -3,7 +3,7 @@ import mediapipe as mp
 from mediapipe_utils.detection import mediapipe_detection, extract_keypoints, save_keypoints
 from mediapipe_utils.drawing import draw_styled_landmarks
 
-os.makedirs('keypoints', exist_ok=True)
+os.makedirs('keypoints', exist_ok=True) #check if the folder exists or not
 mp_holistic = mp.solutions.holistic
 
 cap = cv2.VideoCapture(0)
